@@ -5,11 +5,13 @@ Home: https://docs.microsoft.com/en-au/azure/key-vault/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-keyvault-keys-feedstock/blob/master/LICENSE.txt)
 
 Summary: Azure Key Vault Keys client library for Python
 
+Development: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault-keys
 
+Documentation: https://azuresdkdocs.blob.core.windows.net/$web/python/azure-keyvault-keys/latest/azure.keyvault.keys.html
 
 Current build status
 ====================
