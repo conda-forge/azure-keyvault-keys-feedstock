@@ -2,18 +2,18 @@ schema_version: 1
 
 context:
   name: azure-keyvault-keys
-  version: 4.9.0
+  version: 4.10.0
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 08632dcd6ece28657204e9a256ad64369fe2b0e385ed43349f932f007d89f774
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
+  sha256: 511206ae90aec1726a4d6ff5a92d754bd0c0f1e8751891368d30fb70b62955f1
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
