@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@dhirschfeld](https://github.com/dhirschfeld/)
+* [@janjagusch](https://github.com/janjagusch/)
 
