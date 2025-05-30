@@ -36,14 +36,14 @@ Current release info
 Installing azure-keyvault-keys
 ==============================
 
-Installing `azure-keyvault-keys` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-keyvault-keys` from the `conda-forge/label/azure-keyvault-keys_rc` channel can be achieved by adding `conda-forge/label/azure-keyvault-keys_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-keyvault-keys_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-keyvault-keys` can be installed with `conda`:
+Once the `conda-forge/label/azure-keyvault-keys_rc` channel has been enabled, `azure-keyvault-keys` can be installed with `conda`:
 
 ```
 conda install azure-keyvault-keys
@@ -58,26 +58,26 @@ mamba install azure-keyvault-keys
 It is possible to list all of the versions of `azure-keyvault-keys` available on your platform with `conda`:
 
 ```
-conda search azure-keyvault-keys --channel conda-forge
+conda search azure-keyvault-keys --channel conda-forge/label/azure-keyvault-keys_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-keyvault-keys --channel conda-forge
+mamba search azure-keyvault-keys --channel conda-forge/label/azure-keyvault-keys_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-keyvault-keys --channel conda-forge
+mamba repoquery search azure-keyvault-keys --channel conda-forge/label/azure-keyvault-keys_rc
 
 # List packages depending on `azure-keyvault-keys`:
-mamba repoquery whoneeds azure-keyvault-keys --channel conda-forge
+mamba repoquery whoneeds azure-keyvault-keys --channel conda-forge/label/azure-keyvault-keys_rc
 
 # List dependencies of `azure-keyvault-keys`:
-mamba repoquery depends azure-keyvault-keys --channel conda-forge
+mamba repoquery depends azure-keyvault-keys --channel conda-forge/label/azure-keyvault-keys_rc
 ```
 
 
