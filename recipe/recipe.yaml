@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-keyvault-keys
-  version: 4.10.0
+  version: 4.11.0b1
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 511206ae90aec1726a4d6ff5a92d754bd0c0f1e8751891368d30fb70b62955f1
+  sha256: 1971c48aa34777f819e8639c0fed90e4236a9b61324341ec841450261c6c0f39
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - azure-core >=1.31.0
     - cryptography >=2.1.4
     - isodate >=0.6.1
-    - typing-extensions >=4.0.1
+    - typing-extensions >=4.6.0
 
 tests:
   - python:
