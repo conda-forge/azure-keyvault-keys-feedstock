@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-keyvault-keys
-  version: 4.11.1
+  version: "4.11.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 90caa3a7b2c8f6b53c247ec115cf1c1dad7f107cc3aa9f35aff4838bbce7e562
+  sha256: 8459c86542d103f8b67acb845fae5168029b6f7eb0fd7678ed8628c7b928addf
 
 build:
   number: 0
